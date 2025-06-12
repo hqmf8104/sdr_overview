@@ -121,7 +121,7 @@ sections = {
             "Aim to transition to 2.5 % of GDP (2.6 % including UKIC) by 2027 and target 3 % in the 2030s."
         ]
     },
-    "1\\. Introduction and Overview": {
+    "1. Introduction and Overview": {
         "Observations": [
             "<b>For the first time since the end of the Cold War, the UK confronts multiple, direct threats to its security, prosperity, and democratic values</b> amid deep global volatility, including plausible high-intensity peer conflict in Europe and a rise in sub-threshold (“grey-zone”) attacks such as espionage, cyber-attack, and information manipulation.",
             "<b>Deterrence now requires readiness to fight and win a full-scale, protracted, and costly conflict</b>, which in turn demands a pivot away from outdated manpower-and-platform metrics toward dynamic networks of crewed, uncrewed, and autonomous assets linked by shared data and digital foundations.",
@@ -137,7 +137,7 @@ sections = {
             
         ]
     },
-    "2\\. The Case for Transformation": {
+    "2. The Case for Transformation": {
         "Observations": [
             "The Armed Forces have begun adapting post-Ukraine but remain structured for post–Cold War expeditionary missions.",
             "Today’s threats—high-intensity, protracted peer-state war; multipolar competition; daily sub-threshold attacks—demand whole-of-Defence readiness, not just front-line reform.",
@@ -156,7 +156,7 @@ sections = {
             ]
 
     },
-    "3\\. Roles for UK Defence": {
+    "3. Roles for UK Defence": {
         "Observations": [
             "The three core defence roles are:",
             "   <b>&bull; Defend, protect, and enhance the resilience of the UK, its Overseas Territories, and Crown Dependencies.",
@@ -174,8 +174,8 @@ sections = {
             "   <b>&bull; Industry-backed.</b> Overhaul acquisitions under the Defence Industrial Strategy to build an industry partnership by engaging firms early on outcomes, rewarding productivity and risk-taking, and lowering barriers for suppliers; implement segmented procurement cycles (major platforms in 2 yrs, spiral upgrades in 1 yr, rapid commercial buys in 3 months with ≥ 10% of budget on novel tech); and mainstream exports and international capability partnerships to drive UK economic growth and boost Defence productivity, competitiveness, and value for money."
         ]
     },
-    "4\\. Transforming UK Warfighting": {
-        "4\\. Overview":{
+    "4. Transforming UK Warfighting": {
+        "4. Overview":{
             "Observations": [
                 "Military effectiveness now hinges on the speed of innovation and the use of networked, autonomous assets rather than force size alone.",
                 "Initial post-Ukraine changes have been too slow and small-scale; Defence must fundamentally transform how it fights and supports warfighting.",
@@ -258,7 +258,7 @@ sections = {
 
         }
     },
-    "5\\. Allies and Partners": {
+    "5. Allies and Partners": {
         "Observations": [
             "<b>Alliances & partnerships</b> are the bedrock of global stability and central to the Integrated Force’s ability to deter, fight, and win through interoperability, resource pooling, industrial resilience, and geographic reach.",
             "The UK must <b>prioritise relationships</b> (UN Security Council, G7, NATO) in coordination with FCDO, focusing limited resources on roles defined in Chapter 3.",
@@ -281,7 +281,7 @@ sections = {
             ]
 
     },
-    "6\\. Home Defence and Resilience: A Whole-of-Society Approach": {
+    "6. Home Defence and Resilience: A Whole-of-Society Approach": {
         "Observations": [
             "Homeland defence is no longer niche—sub-threshold attacks (espionage, cyber, information ops, sabotage) can inflict major harm below kinetic conflict.",
             "Existing resilience strategy focuses on pandemic/pandemic-scale events rather than warfighting contexts."
@@ -299,7 +299,7 @@ sections = {
             "<b>Enhance Strategic Reserve engagement</b> through annual training and volunteer roles, and implement a <b>digitised Reserves management</b> system by January 2027."
         ]
     },
-    "7\\. The Integrated Force - Domains":{
+    "7. The Integrated Force - Domains":{
         "Nuclear":{
             "Observations": [
                 "<b>Modernised nuclear deterrent</b> underpins UK defence and NATO assurance, maintained continuously through the Continuous At Sea Deterrent for over 55 years.",
@@ -391,7 +391,7 @@ sections = {
 
         }
     },
-    "7\\. The Integrated Force - Capabilities":{
+    "7. The Integrated Force - Capabilities":{
         "Strategic Command":{
             "Observations": [
                 "<b>Strategic Command unifies joint enablers</b>—from Defence Intelligence and CyberEM Command to Special Forces and the Defence Academy—under common standards and training.",
@@ -543,7 +543,7 @@ with st.sidebar:
                 st.session_state.selected_sub = None
 
     st.markdown("---")
-   
+
     # (Add additional related pairings here if desired, each with a unique key.)
 
 # -------------------------
