@@ -112,7 +112,7 @@ sections = {
     "Foreword from the Reviewers": {
         "Observations": [
             "Commissioned amidst Russia’s full-scale invasion of Ukraine and growing great-power competition.",
-            "Emphasis on rebuilding warfighting readiness and deterrence with integrated conventional and digital forces."
+            "Emphasis on bolstering deterrence by rebuilding UK's warfighting readiness, achieved through increased procurement, integration and putting NATO first."
         ],
         "Recommendations": [
             "Procurement and innovation must proceed at “wartime pace.”",
@@ -121,13 +121,20 @@ sections = {
     },
     "1. Introduction and Overview": {
         "Observations": [
-            "For the first time since the Cold War, the UK faces multiple direct threats to security, prosperity, and democratic values.",
-            "High-intensity peer conflict (e.g., Russia) is again plausible; Cold War–era metrics no longer suffice."
+            "<b>For the first time since the end of the Cold War, the UK confronts multiple, direct threats to its security, prosperity, and democratic values</b> amid deep global volatility, including plausible high-intensity peer conflict in Europe and a rise in sub-threshold (“grey-zone”) attacks such as espionage, cyber-attack, and information manipulation.",
+            "<b>Deterrence now requires readiness to fight and win a full-scale, protracted, and costly conflict</b>, which in turn demands a pivot away from outdated manpower-and-platform metrics toward dynamic networks of crewed, uncrewed, and autonomous assets linked by shared data and digital foundations.",
+            "<b>Maintaining endurance in long campaigns hinges on assured access to critical capabilities underwritten by a resilient, scalable defence industrial base</b>, while a renewed emphasis on home defence and whole-of-society resilience is imperative to safeguard the homeland and critical national infrastructure.",
+            "<b>This Strategic Defence Review delivers that root-and-branch response—externally led, costed to rise to 2.5 % of GDP (2.6 % including UKIC) by 2027 and 3 % in the 2030s—and sets out a clear vision for UK Defence through to 2035 across strategic context, roles, warfighting transformation, alliances, home defence, and integrated force capabilities</b>."
         ],
         "Recommendations": [
-            "Develop networks of crewed, uncrewed, and autonomous assets integrated by data flows.",
-            "Restore home defence and resilience against sub-threshold attacks (espionage, cyber, <abbr title='Information Manipulation'>info ops</abbr>).",
-            "Implement Defence Reform: four new portfolio areas, clearer accountability, faster decision-making, and top-down force design under <abbr title='Military Strategic Headquarters'>MSHQ</abbr>."
+            "<b>Build and field an Integrated Force</b> under a single command structure (CDS/MSHQ) with a digital “targeting web” by 2027 and a dedicated Digital Warfighters group.",
+            "<b>Innovate at wartime pace</b> via two new organisations (Defence Research & Evaluation and UK Defence Innovation with ≥ £400 m p.a.) and a Defence Investors’ Advisory Group.",
+            "<b>Reform procurement</b> through segmented contracting timelines (major platforms in 2 yrs; spiral upgrades in 1 yr; rapid commercial buys in 3 months), risk-and-productivity incentives, and export mainstreaming.",
+            "<b>Strengthen people and culture</b> by maintaining or growing Regulars, expanding Reserves by 20 %, automating 20 % of back-office functions by July 2028, and overhauling training with virtual, civilian-accredited environments.",
+            "<b>Deepen alliances</b> with a NATO-First mindset across bilateral, minilateral (JEF, E3, E5), AUKUS, Global Combat Air, and sustained Ukraine support.",
+            "<b>Enhance home defence</b> by growing Cadet Forces by 30 % by 2030, forging a “new deal” for CNI protection with private and allied partners, and legislating a Defence Readiness Bill for rapid mobilisation.",
+            "<b>Equip a force fit for the 21st century</b> by sustaining the nuclear deterrent, accelerating AI and autonomy with a Uncrewed Systems Centre by February 2026, and bolstering space and CyberEM domains with dedicated commands.",
+            "<b>Rebuild foundational capabilities</b>—empowering Defence Intelligence with a new charter, rebuilding Defence Medical Services, recapitalising the strategic base by February 2026, and ensuring “always-on” munitions production supported by joint enablers."
         ]
     },
     "2. The Case for Transformation": {
@@ -349,7 +356,7 @@ def show_progress_widgets():
     In a real app, you'd pull the current value from a data source.
     """
     target = 2.5  # target % of GDP by 2027
-    current = 2.2  # hypothetical current % (2024)
+    current = 2.3  # hypothetical current % (2024)
     st.metric(label="Current Defence Spending", value=f"{current:.1f} % GDP", delta=f"–{(target-current):.1f} pp to target")
     progress_val = min(current / target, 1.0)
     st.progress(progress_val)
