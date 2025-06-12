@@ -621,8 +621,6 @@ else:
                 st.markdown(f'<div class="bullet"> {rec}</div>', unsafe_allow_html=True)
 
         st.markdown("---")
-        if st.button(f"← Back to {main_key}", key="back"):
-            st.session_state.selected_sub = None
 
     else:
         content = sections[main_key]
