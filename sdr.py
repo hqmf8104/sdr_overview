@@ -192,7 +192,7 @@ sections = {
 
  
         },
-        "4.1 The Integrated Force Model": {
+        "The Integrated Force Model": {
             "Observations": [
                 "<b>Single Services siloed</b>—force effectiveness depends on individual Service capabilities at deployment, not unified planning.",
                 "<b>Top-down integration</b> under CDS/MSHQ is required—design and delivery must flow from a single authority, backed by a common digital foundation.",
@@ -213,7 +213,7 @@ sections = {
                 ]
 
         },
-        "4.2 Innovation and Industry: A New Approach for Deterrence and Growth": {
+        "Innovation and Industry: A New Approach for Deterrence and Growth": {
             "Observations": [
                 "<b>Innovation & industrial power</b> are central to deterrence: Ukraine highlights the need for sufficient munitions stocks, rapid resupply, and a continual front-line innovation cycle.",
                 "<b>Leverage MOD’s market power</b> (£29 bn spend, £14.5 bn exports) to drive UK economic growth while sustaining warfighting readiness.",
@@ -237,7 +237,7 @@ sections = {
                 "Implement a <b>robust Balance of Investment process</b> with SoS access to through-life costings, independent <b>Cost Assurance & Analysis</b> ‘open-book’ advice, and digitised acquisition/support processes."
                 ]
         },
-        "4.3 ‘One Defence’: People, Training, and Education": {
+        "‘One Defence’: People, Training, and Education": {
             "Observations": [
                 "<b>Active Reserves</b> bring vital skills—urgently reinvigorate Strategic Reserve engagement and plan for a ≥20% increase in Active Reserves.",
                 "<b>Civil servants</b> are central to outcomes—invest in performance and productivity while cutting MOD Civil Service costs by ≥10% by 2030 through automation and role review.",
